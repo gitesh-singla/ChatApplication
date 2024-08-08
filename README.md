@@ -48,7 +48,7 @@ This repository contains a chat application built using Next.js and a Node.js se
     npx prisma migrate dev
 
     cd ../socket-server
-    npx prisma migrate dev
+    npx prisma generate
     ```
 
 ### Running the Application
