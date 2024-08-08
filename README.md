@@ -1,0 +1,1 @@
+A realtime chat application built using Next.js, Weboskcets(ws library), Node.js.
