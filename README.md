@@ -41,6 +41,16 @@ This repository contains a chat application built using Next.js and a Node.js se
 
 1. Fill in the `.env` files in both `chat-app` and `socket-server` folders according to the `.env.example` files provided.
 
+2. Generate Prisma client:
+
+    ```bash
+    cd chat-app
+    npx prisma generate
+
+    cd ../socket-server
+    npx prisma generate
+    ```
+
 ### Running the Application
 
 1. **Start the chat application**:
