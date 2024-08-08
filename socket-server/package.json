@@ -1,0 +1,20 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w & nodeon ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/ws": "^8.5.11",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.17.0",
+    "ws": "^8.18.0"
+  }
+}
